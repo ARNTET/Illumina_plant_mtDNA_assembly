@@ -12,7 +12,7 @@ Lactuca sativa var. capitata L. nidus tenerrima:
   - LAC004500: ERS5267070
 
 - Lactuca saligna:
-  - LAC008020:	ERS5267072
+  - LAC008020: ERS5267072
 
 - Lactuca serriola:
   - LAC005780: ERS5267075
