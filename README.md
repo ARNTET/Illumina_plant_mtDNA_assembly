@@ -10,21 +10,21 @@ Lactuca sativa var. capitata L. nidus tenerrima:
 
 ### Raw reads fastq files are available on ebi.ac.uk/ena under the accession numbers:
 
-Lactuca sativa:
-UC12100: ERS5267071
-LAC004500: ERS5267070
+- Lactuca sativa:
+  - UC12100: ERS5267071
+  - LAC004500: ERS5267070
 
-Lactuca saligna:
-LAC008020:	ERS5267072
+- Lactuca saligna:
+  - LAC008020:	ERS5267072
 
-Lactuca serriola:
-LAC005780: ERS5267075
-CGN004799: ERS5267073
+- Lactuca serriola:
+  - LAC005780: ERS5267075
+  - CGN004799: ERS5267073
 
-Lactuca virosa:
-LAC006941: ERS5267078
-CGN013357: ERS5267076
-CGN019045: ERS5267077
+- Lactuca virosa:
+  - LAC006941: ERS5267078
+  - CGN013357: ERS5267076
+  - CGN019045: ERS5267077
 
 
 
