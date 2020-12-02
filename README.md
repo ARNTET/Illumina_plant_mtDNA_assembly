@@ -1,7 +1,4 @@
-# Illumina_plant_mtDNA_assembly
-Mitochondrial genome assembly using Illumina MiSeq paired-end reads
-
-# Assembly
+# Assembly of plant mitochondrial DNA using a Illumina MiSeq paired-end reads and a reference genome
 
 ## Materials
 
