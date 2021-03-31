@@ -124,4 +124,4 @@ while (($a<$lengthS)); do
   cd ..
   let "a=a+1"
 done
-echo *DING* Your mitochondrial scaffolds are now available 
+echo DING Your mitochondrial scaffolds are now available 
