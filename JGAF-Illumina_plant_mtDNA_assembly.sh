@@ -2,8 +2,6 @@
 #SBATCH --partition=fast
 #SBATCH --cpus-per-task=16
 #SBATCH --mem-per-cpu=2000
-#SBATCH --job-name="Illumina_Assembly"
-#SBATCH --output=JGAF-Illumina_Assembly%j.out
 
 # Modules needed ###############################################################
 module load trimmomatic
