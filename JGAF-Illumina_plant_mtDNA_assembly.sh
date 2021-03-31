@@ -26,7 +26,7 @@ while (($a<$lengthS)); do
   mkdir a_trimmed
   trimmomatic \
   PE \
-  ${samples[a]}(a)"_R1.fastq.gz" \
+  ${samples[a]}"_R1.fastq.gz" \
   ${samples[a]}"_R2.fastq.gz" \
   a_trimmed/${samples[a]}".R1.fq.gz" \
   a_trimmed/${samples[a]}".R1U.fq.gz" \
