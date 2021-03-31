@@ -79,7 +79,7 @@ while (($a<$lengthS)); do
   -o ${samples[a]}".spades"
   cd ..
   samtools faidx e_assemblyS/${samples[a]}".spades"/contigs.fasta
-  wc -l e_assembly/${samples[a]}".spades"/contigs.fasta.fai
+  wc -l e_assemblyS/${samples[a]}".spades"/contigs.fasta.fai
   let "a=a+1"
 done
 echo Now contigs need to be blasted to identify mitochondrial coverage
@@ -100,7 +100,7 @@ a=0
 while (($a<$lengthS)); do
   #F# Filtering
   mkdir f_filtering
-  cat e_assembly/${samples[a]}".spades"/contigs.fasta.fai \
+  cat e_assemblyS/${samples[a]}".spades"/contigs.fasta.fai \
   | sed -e $'s/_/\t/g' \
   | sed 's/\./,/g' \
   | awk '$6 < '${samples[a]}"_Upper"' && $6 > '${samples[a]}"_Lower"'' \
